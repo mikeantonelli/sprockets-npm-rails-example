@@ -1,0 +1,14 @@
+{
+  "name": "sprockets-npm-rails-example",
+  "version": "0.1.0",
+  "description": "Ruby on Rails App, Sprockets and npm working together",
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery/archive/2.2.3.tar.gz"
+  },
+  "keywords": [
+    "npm",
+    "sprockets"
+  ],
+  "author": "Mike Antonelli",
+  "license": "MIT"
+}

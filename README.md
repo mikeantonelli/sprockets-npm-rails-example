@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example Rails (5beta4) application showing Sprockets and NPM coexisting.
 
-Things you may want to cover:
+## Assumptions
 
-* Ruby version
+* You use sprockets.
+* You author your own application.js using sprockets (`app/assets/javascripts/application.js`).
+* You want to use npm to manage front-end assets (`package.json`).
 
-* System dependencies
+## Purpose
 
-* Configuration
+As a proof-of-concept, I want to pull jquery using npm and require it in my application.js for usage in the Rails asset pipeline.
 
-* Database creation
+## Usage
 
-* Database initialization
+* `bundle install`
+* `npm install` (or `brew install npm` first)
 
-* How to run the test suite
+## Credits
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Credit to Rafael França for showing sprockets directive code for npm during RailsConf 2016 KCMO.
