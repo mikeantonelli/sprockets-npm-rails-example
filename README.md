@@ -1,6 +1,6 @@
 # README
 
-This is an example Rails (5beta4) application showing Sprockets and NPM coexisting.
+This is an example Rails 5 (rc1) application showing Sprockets and NPM coexisting.
 
 ## Assumptions
 
@@ -14,10 +14,10 @@ As a proof-of-concept, I want to pull jquery using npm and require it in my appl
 
 ## Goals
 
-- [ ] Include a node module in a sprockets asset
+- [X] Include a node module in a sprockets asset
 
 ```javascript
-//= require_node_module jquery
+//= npm jquery
 ```
 
 - [ ] Reference a node module asset using Rails helpers
